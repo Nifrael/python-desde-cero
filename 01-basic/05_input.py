@@ -14,3 +14,8 @@ print(f"Hola {nom}, enchanté!")
 age = input("Quel âge as-tu?\n")
 age = int(age)
 print(f"Tu as {age} ans!")
+
+print("Obtenir des valeurs multiples en même temps")
+country, city = input("Dans quel pays et ville es-tu né?\n").split()
+
+print(f"Tu vis en {country}, à {city}")
