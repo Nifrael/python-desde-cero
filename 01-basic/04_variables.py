@@ -31,11 +31,17 @@ print(type(name))
 print(f"Hola {my_name}, tengo {age} años")
 
 # Convention de nommage de variables
-nommage_de_variable = "ok" #snake_case
-nommage = "ok"
-MonNommageDeVariable = "ko"
-monnommagedevariable = "ko"
-nommage_de_variable_123 = "ok"
+# nommage_de_variable = "ok" #snake_case
+# nommage = "ok"
+# MonNommageDeVariable = "ko"
+# monnommagedevariable = "ko"
+# nommage_de_variable_123 = "ok"
 
-MA_CONSTANTE = 3.14 # UPPER_CASE : par convention, ne pas réassigner cette variable
+# # UPPER_CASE : par convention, ne pas réassigner cette variable
 # Contrairement à d'autres langages, on peut quand réassigner une valeur à cette constante.
+
+is_user_logged_in: bool = True ## Annotation de type
+print(is_user_logged_in)
+
+is_user_logged_in = 42
+print(is_user_logged_in)
