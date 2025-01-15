@@ -14,3 +14,6 @@ print("Cela s'imprime", end=" ")
 ## Par défaut, la valeur de end est \n et saute une ligne.
 ## En changeant le paramètre en chaîne de caractères vide, on peut écrire plusieurs print sur une ligne.
 print("sur une ligne")
+
+
+print(42)
