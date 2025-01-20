@@ -56,6 +56,9 @@ print("--------------")
 
 print("\nEjercicio 5: Números")
 print("1. Crea una variable con el número PI (sin asignar una variable)")
+pi = 3.14
 print("2. Redondea el número con round()")
+rounded_pi = print(round(pi))
 print("3. Haz la división entera entre el número que te salió y el número 2")
+print(rounded_pi / pi)
 print("4. El resultado debería ser 1")
